@@ -1,0 +1,34 @@
+{
+  "name": "tech-talk-ppt-skill",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Agent skill for AI PowerPoint/PPTX technical presentations with full-slide images and editable native elements in hybrid layouts",
+  "keywords": [
+    "agent-skills",
+    "ppt-skill",
+    "pptx",
+    "powerpoint",
+    "ai-presentation",
+    "image-generation",
+    "technical-talks",
+    "editable-slides",
+    "pptxgenjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sw897/tech-talk-ppt-skill.git"
+  },
+  "homepage": "https://github.com/sw897/tech-talk-ppt-skill#readme",
+  "bugs": {
+    "url": "https://github.com/sw897/tech-talk-ppt-skill/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "pptxgenjs": "4.0.1",
+    "jszip": "3.10.1"
+  }
+}

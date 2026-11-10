@@ -1,0 +1,12 @@
+{
+  "operations": [
+    {
+      "op": "replace_image",
+      "slide": "s01",
+      "object": "cover-art",
+      "path": "../assets/hybrid-cover-tray-v2.png",
+      "sha256": "600e14539e95e4e0341fceadf5b18e99a4cdeeeec0a0c960c32a8110249231b3",
+      "kind": "generated"
+    }
+  ]
+}

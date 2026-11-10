@@ -1,0 +1,17 @@
+{
+  "operations": [
+    {
+      "op": "replace_text",
+      "slide": "s07",
+      "object": "parameters",
+      "old": "0.80",
+      "new": "0.85"
+    },
+    {
+      "op": "replace_notes_text",
+      "slide": "s07",
+      "old": "0.80",
+      "new": "0.85"
+    }
+  ]
+}

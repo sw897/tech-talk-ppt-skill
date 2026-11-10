@@ -1,0 +1,4 @@
+interface:
+  display_name: "TechTalk PPT"
+  short_description: "技术分享PPT制作，支持整页生图、图内文字与原生元素混排"
+  default_prompt: "使用 $tech-talk-ppt-skill 将资料制作成技术分享PPT，选择合适模式并完成自审。"

@@ -1,0 +1,1114 @@
+{
+  "schema_version": 1,
+  "title": "Agent怎样完成任务",
+  "author": "TechTalk PPT",
+  "footer": "Agent怎样完成任务",
+  "source": {
+    "path": "source.md",
+    "sha256": "3a3b1f3da1692a939a59cf7c34417114ec7aebd9e979bd0ae0f12d1b65e4596f"
+  },
+  "mode": "hybrid",
+  "slides": [
+    {
+      "id": "s01",
+      "title": "Agent怎样\n完成任务",
+      "notes": "这里用三份合成设备记录说明一类常见的Agent任务过程。目标是整理出能够回查来源的清单。接下来先明确任务约定，再看模型判断、工具调用和实际结果怎样衔接，最后看缺少信息时怎样澄清，以及怎样保留可接续的成果。不同系统的具体编排会有差异。",
+      "titleStyle": {
+        "box": [
+          56,
+          250,
+          500,
+          200
+        ],
+        "fontSize": 72,
+        "rule": false
+      },
+      "footerRule": false,
+      "elements": [
+        {
+          "id": "cover-art",
+          "type": "image",
+          "path": "../file-list/assets/hybrid-cover-tray-v2.png",
+          "sha256": "600e14539e95e4e0341fceadf5b18e99a4cdeeeec0a0c960c32a8110249231b3",
+          "kind": "generated",
+          "box": [
+            0,
+            0,
+            1600,
+            900
+          ],
+          "fit": "contain"
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "text": "目标、工具与结果反馈",
+          "box": [
+            60,
+            510,
+            500,
+            80
+          ],
+          "fontSize": 30,
+          "bold": true,
+          "color": "15344B",
+          "align": "left"
+        },
+        {
+          "id": "accent-blue",
+          "type": "line",
+          "from": [
+            60,
+            478
+          ],
+          "to": [
+            515,
+            478
+          ],
+          "color": "8EC8EE",
+          "arrow": false,
+          "width": 3,
+          "dash": false
+        },
+        {
+          "id": "accent-orange",
+          "type": "line",
+          "from": [
+            60,
+            478
+          ],
+          "to": [
+            185,
+            478
+          ],
+          "color": "C47824",
+          "arrow": false,
+          "width": 4,
+          "dash": false
+        }
+      ],
+      "showFooter": false
+    },
+    {
+      "id": "s02",
+      "title": "一次任务的约定",
+      "notes": "交办任务时，要把输入、目标、约束和验收写清楚。这里的输入限定为三份记录，目标是一张可回查清单。遇到缺项先确认，避免把缺少的字段自行补全。验收时逐条回到来源，核对取值、单位和条件。这四项共同界定本次任务的范围。",
+      "titleStyle": {
+        "rule": false
+      },
+      "footerRule": false,
+      "elements": [
+        {
+          "id": "contract-art",
+          "type": "image",
+          "path": "../file-list/assets/hybrid-contract-v2.png",
+          "sha256": "bf2612058328648d814d7f541d935a0c4457e505c817b317fbc166871b4ca625",
+          "kind": "generated",
+          "box": [
+            0,
+            0,
+            1600,
+            900
+          ],
+          "fit": "contain"
+        },
+        {
+          "id": "head-0",
+          "type": "text",
+          "text": "输入",
+          "box": [
+            35,
+            235,
+            340,
+            75
+          ],
+          "fontSize": 44,
+          "bold": true,
+          "color": "15344B",
+          "align": "center"
+        },
+        {
+          "id": "body-0",
+          "type": "text",
+          "text": "三份设备记录",
+          "box": [
+            30,
+            740,
+            350,
+            55
+          ],
+          "fontSize": 30,
+          "bold": true,
+          "color": "15344B",
+          "align": "center"
+        },
+        {
+          "id": "head-1",
+          "type": "text",
+          "text": "目标",
+          "box": [
+            425,
+            235,
+            340,
+            75
+          ],
+          "fontSize": 44,
+          "bold": true,
+          "color": "15344B",
+          "align": "center"
+        },
+        {
+          "id": "body-1",
+          "type": "text",
+          "text": "一张可回查清单",
+          "box": [
+            420,
+            740,
+            350,
+            55
+          ],
+          "fontSize": 30,
+          "bold": true,
+          "color": "15344B",
+          "align": "center"
+        },
+        {
+          "id": "head-2",
+          "type": "text",
+          "text": "约束",
+          "box": [
+            825,
+            235,
+            340,
+            75
+          ],
+          "fontSize": 44,
+          "bold": true,
+          "color": "15344B",
+          "align": "center"
+        },
+        {
+          "id": "body-2",
+          "type": "text",
+          "text": "缺项先确认",
+          "box": [
+            820,
+            740,
+            350,
+            55
+          ],
+          "fontSize": 30,
+          "bold": true,
+          "color": "15344B",
+          "align": "center"
+        },
+        {
+          "id": "head-3",
+          "type": "text",
+          "text": "验收",
+          "box": [
+            1220,
+            235,
+            340,
+            75
+          ],
+          "fontSize": 44,
+          "bold": true,
+          "color": "15344B",
+          "align": "center"
+        },
+        {
+          "id": "body-3",
+          "type": "text",
+          "text": "逐条核对来源",
+          "box": [
+            1215,
+            740,
+            350,
+            55
+          ],
+          "fontSize": 30,
+          "bold": true,
+          "color": "15344B",
+          "align": "center"
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "title": "Agent的任务循环",
+      "notes": "编排程序把任务和当前信息交给模型判断，再按所选动作调用工具。工具实际返回后，结果进入下一轮判断，而不是只凭模型预计继续推进。深蓝回路表示实际结果返回。橙色分支表示信息不足时先澄清，补充输入后再判断。这张图概括一种常见机制，各系统的工具与停止条件会有差异。",
+      "titleStyle": {
+        "rule": false
+      },
+      "footerRule": false,
+      "elements": [
+        {
+          "id": "loop-art",
+          "type": "image",
+          "path": "assets/loop-labelled.png",
+          "sha256": "a4d99fa4eac98d330daec2236643931f1b02358278e2f5025fca7e5e62555a43",
+          "kind": "generated",
+          "box": [
+            0,
+            0,
+            1600,
+            900
+          ],
+          "fit": "contain"
+        },
+        {
+          "id": "task-to-decision",
+          "type": "line",
+          "from": [
+            348,
+            335
+          ],
+          "to": [
+            424,
+            335
+          ],
+          "color": "337AA6",
+          "arrow": true,
+          "width": 3,
+          "dash": false
+        },
+        {
+          "id": "decision-to-tool",
+          "type": "line",
+          "from": [
+            748,
+            335
+          ],
+          "to": [
+            826,
+            335
+          ],
+          "color": "337AA6",
+          "arrow": true,
+          "width": 3,
+          "dash": false
+        },
+        {
+          "id": "tool-to-result",
+          "type": "line",
+          "from": [
+            1148,
+            335
+          ],
+          "to": [
+            1224,
+            335
+          ],
+          "color": "337AA6",
+          "arrow": true,
+          "width": 3,
+          "dash": false
+        },
+        {
+          "id": "result-down",
+          "type": "line",
+          "from": [
+            1395,
+            501
+          ],
+          "to": [
+            1395,
+            575
+          ],
+          "color": "15344B",
+          "arrow": false,
+          "width": 3,
+          "dash": false
+        },
+        {
+          "id": "result-back",
+          "type": "line",
+          "from": [
+            1395,
+            575
+          ],
+          "to": [
+            635,
+            575
+          ],
+          "color": "15344B",
+          "arrow": false,
+          "width": 3,
+          "dash": false
+        },
+        {
+          "id": "result-up",
+          "type": "line",
+          "from": [
+            635,
+            575
+          ],
+          "to": [
+            635,
+            501
+          ],
+          "color": "15344B",
+          "arrow": true,
+          "width": 3,
+          "dash": false
+        },
+        {
+          "id": "return-label",
+          "type": "text",
+          "text": "实际结果回到判断",
+          "box": [
+            785,
+            585,
+            400,
+            42
+          ],
+          "fontSize": 26,
+          "bold": false,
+          "color": "15344B",
+          "align": "center"
+        },
+        {
+          "id": "clarify-down",
+          "type": "line",
+          "from": [
+            465,
+            501
+          ],
+          "to": [
+            465,
+            780
+          ],
+          "color": "C47824",
+          "arrow": false,
+          "width": 3,
+          "dash": false
+        },
+        {
+          "id": "clarify-in",
+          "type": "line",
+          "from": [
+            465,
+            780
+          ],
+          "to": [
+            740,
+            780
+          ],
+          "color": "C47824",
+          "arrow": true,
+          "width": 3,
+          "dash": false
+        },
+        {
+          "id": "missing-label",
+          "type": "text",
+          "text": "信息不足",
+          "box": [
+            485,
+            715,
+            240,
+            48
+          ],
+          "fontSize": 28,
+          "bold": true,
+          "color": "C47824",
+          "align": "left"
+        },
+        {
+          "id": "clarify-out",
+          "type": "line",
+          "from": [
+            1110,
+            780
+          ],
+          "to": [
+            1185,
+            780
+          ],
+          "color": "C47824",
+          "arrow": false,
+          "width": 3,
+          "dash": false
+        },
+        {
+          "id": "clarify-up",
+          "type": "line",
+          "from": [
+            1185,
+            780
+          ],
+          "to": [
+            1185,
+            660
+          ],
+          "color": "C47824",
+          "arrow": false,
+          "width": 3,
+          "dash": false
+        },
+        {
+          "id": "clarify-back",
+          "type": "line",
+          "from": [
+            1185,
+            660
+          ],
+          "to": [
+            555,
+            660
+          ],
+          "color": "C47824",
+          "arrow": false,
+          "width": 3,
+          "dash": false
+        },
+        {
+          "id": "clarify-to-decision",
+          "type": "line",
+          "from": [
+            555,
+            660
+          ],
+          "to": [
+            555,
+            501
+          ],
+          "color": "C47824",
+          "arrow": true,
+          "width": 3,
+          "dash": false
+        },
+        {
+          "id": "supplement-label",
+          "type": "text",
+          "text": "补充输入",
+          "box": [
+            760,
+            670,
+            300,
+            45
+          ],
+          "fontSize": 28,
+          "bold": true,
+          "color": "C47824",
+          "align": "center"
+        }
+      ],
+      "in_image_text": [
+        "任务",
+        "判断",
+        "工具",
+        "实际结果",
+        "澄清"
+      ],
+      "native_text": [
+        "title",
+        "return-label",
+        "missing-label",
+        "supplement-label",
+        "footer",
+        "page"
+      ]
+    },
+    {
+      "id": "s04",
+      "title": "信息不足时怎样继续",
+      "notes": "假设记录只写了阈值80，单位和用途都缺失。这个数可能对应不同的量，不能直接换算，也不能据此判断是否合格。此时应说明已知信息和缺少的条件，向用户确认后再继续。澄清得到的补充信息进入后续判断，当前没有依据的部分仍保留为待确认。",
+      "titleStyle": {
+        "rule": false
+      },
+      "footerRule": false,
+      "elements": [
+        {
+          "id": "clarify-art",
+          "type": "image",
+          "path": "../file-list/assets/hybrid-clarify-v2.png",
+          "sha256": "43a605e923a5025ace86b8f88ee68fd7e165e4cb215f39945a3be95fd09e2ab6",
+          "kind": "generated",
+          "box": [
+            0,
+            0,
+            1600,
+            900
+          ],
+          "fit": "contain"
+        },
+        {
+          "id": "input-value",
+          "type": "text",
+          "text": "阈值 80",
+          "box": [
+            175,
+            335,
+            300,
+            100
+          ],
+          "fontSize": 60,
+          "bold": true,
+          "color": "15344B",
+          "align": "left"
+        },
+        {
+          "id": "missing-fields",
+          "type": "text",
+          "text": "待确认：单位与用途",
+          "box": [
+            850,
+            285,
+            670,
+            92
+          ],
+          "fontSize": 40,
+          "bold": true,
+          "color": "15344B",
+          "align": "left"
+        },
+        {
+          "id": "confirmation-rule",
+          "type": "text",
+          "text": "确认前不转换、不下结论",
+          "box": [
+            850,
+            505,
+            690,
+            92
+          ],
+          "fontSize": 36,
+          "bold": true,
+          "color": "15344B",
+          "align": "left"
+        },
+        {
+          "id": "clarify-step",
+          "type": "text",
+          "text": "澄清",
+          "box": [
+            915,
+            742,
+            175,
+            72
+          ],
+          "fontSize": 40,
+          "bold": true,
+          "color": "15344B",
+          "align": "left"
+        },
+        {
+          "id": "input-to-clarify-v",
+          "type": "line",
+          "from": [
+            294,
+            705
+          ],
+          "to": [
+            294,
+            786
+          ],
+          "color": "337AA6",
+          "arrow": false,
+          "width": 3,
+          "dash": false
+        },
+        {
+          "id": "input-to-clarify-h",
+          "type": "line",
+          "from": [
+            294,
+            786
+          ],
+          "to": [
+            710,
+            786
+          ],
+          "color": "337AA6",
+          "arrow": true,
+          "width": 3,
+          "dash": false
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "title": "工具返回与结果核对",
+      "notes": "工具返回内容之后，还要核对它是否支持当前结论。先找到来源文件，再定位到相关原文，最后检查表格中的取值和单位。下方表格里，设备A-01可以对应记录A；单位缺少原文依据，继续标为待确认。来源存在并不自动说明结论成立，关键是原文与结论是否对应。",
+      "titleStyle": {
+        "rule": false
+      },
+      "footerRule": false,
+      "elements": [
+        {
+          "id": "evidence-art",
+          "type": "image",
+          "path": "../file-list/assets/hybrid-evidence-v2.png",
+          "sha256": "04867044018025ad00935b3b8e2b4ec9142bef5e1949fae86f2d7d55caa950f1",
+          "kind": "generated",
+          "box": [
+            0,
+            0,
+            1600,
+            900
+          ],
+          "fit": "contain"
+        },
+        {
+          "id": "group-0",
+          "type": "text",
+          "text": "记录A",
+          "box": [
+            48,
+            126,
+            390,
+            62
+          ],
+          "fontSize": 36,
+          "bold": true,
+          "color": "15344B",
+          "align": "center"
+        },
+        {
+          "id": "caption-0",
+          "type": "text",
+          "text": "结论：字段取值",
+          "box": [
+            60,
+            482,
+            366,
+            42
+          ],
+          "fontSize": 28,
+          "bold": true,
+          "color": "15344B",
+          "align": "center"
+        },
+        {
+          "id": "group-1",
+          "type": "text",
+          "text": "来源文件",
+          "box": [
+            570,
+            126,
+            435,
+            62
+          ],
+          "fontSize": 36,
+          "bold": true,
+          "color": "15344B",
+          "align": "center"
+        },
+        {
+          "id": "caption-1",
+          "type": "text",
+          "text": "原件：提供证据",
+          "box": [
+            582,
+            482,
+            411,
+            42
+          ],
+          "fontSize": 28,
+          "bold": true,
+          "color": "15344B",
+          "align": "center"
+        },
+        {
+          "id": "group-2",
+          "type": "text",
+          "text": "原文位置",
+          "box": [
+            1140,
+            126,
+            420,
+            62
+          ],
+          "fontSize": 36,
+          "bold": true,
+          "color": "15344B",
+          "align": "center"
+        },
+        {
+          "id": "caption-2",
+          "type": "text",
+          "text": "依据：原文片段",
+          "box": [
+            1152,
+            482,
+            396,
+            42
+          ],
+          "fontSize": 28,
+          "bold": true,
+          "color": "15344B",
+          "align": "center"
+        },
+        {
+          "id": "citation-link",
+          "type": "line",
+          "from": [
+            438,
+            325
+          ],
+          "to": [
+            566,
+            325
+          ],
+          "color": "337AA6",
+          "arrow": true,
+          "width": 3,
+          "dash": false
+        },
+        {
+          "id": "citation-label",
+          "type": "text",
+          "text": "引用",
+          "box": [
+            448,
+            263,
+            110,
+            42
+          ],
+          "fontSize": 26,
+          "bold": true,
+          "color": "15344B",
+          "align": "center"
+        },
+        {
+          "id": "location-link",
+          "type": "line",
+          "from": [
+            1005,
+            325
+          ],
+          "to": [
+            1138,
+            325
+          ],
+          "color": "337AA6",
+          "arrow": true,
+          "width": 3,
+          "dash": false
+        },
+        {
+          "id": "location-label",
+          "type": "text",
+          "text": "定位",
+          "box": [
+            1015,
+            263,
+            110,
+            42
+          ],
+          "fontSize": 26,
+          "bold": true,
+          "color": "15344B",
+          "align": "center"
+        },
+        {
+          "id": "support-down",
+          "type": "line",
+          "from": [
+            1365,
+            542
+          ],
+          "to": [
+            1365,
+            588
+          ],
+          "color": "C47824",
+          "arrow": false,
+          "width": 3,
+          "dash": false
+        },
+        {
+          "id": "support-back",
+          "type": "line",
+          "from": [
+            1365,
+            588
+          ],
+          "to": [
+            245,
+            588
+          ],
+          "color": "C47824",
+          "arrow": false,
+          "width": 3,
+          "dash": false
+        },
+        {
+          "id": "support-up",
+          "type": "line",
+          "from": [
+            245,
+            588
+          ],
+          "to": [
+            245,
+            542
+          ],
+          "color": "C47824",
+          "arrow": true,
+          "width": 3,
+          "dash": false
+        },
+        {
+          "id": "support-label",
+          "type": "text",
+          "text": "原文支持结论",
+          "box": [
+            660,
+            595,
+            420,
+            42
+          ],
+          "fontSize": 26,
+          "bold": true,
+          "color": "C47824",
+          "align": "center"
+        },
+        {
+          "id": "evidence",
+          "type": "table",
+          "rows": [
+            [
+              "字段",
+              "取值",
+              "依据"
+            ],
+            [
+              "设备",
+              "A-01",
+              "记录A"
+            ],
+            [
+              "单位",
+              "待确认",
+              "缺少原文"
+            ]
+          ],
+          "box": [
+            64,
+            653,
+            1472,
+            174
+          ],
+          "columnWidths": [
+            420,
+            490,
+            562
+          ],
+          "fontSize": 28,
+          "headerFill": "DEEDF7",
+          "bodyFill": "F9FCFE",
+          "cellStyles": {
+            "2,1": {
+              "color": "C47824",
+              "bold": true
+            },
+            "2,2": {
+              "color": "C47824",
+              "bold": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "title": "任务怎样接续",
+      "notes": "任务告一段落时，保留清单、来源、待确认项和下一步。后来接手的人或新会话可以据此恢复工作范围，继续核对缺项。能够接续依赖于这些实际保存、能够读取的成果。这个示例说明交付内容的组织方式，具体工具是否成功执行、业务结果是否正确，还需要在真实任务中分别验证。",
+      "titleStyle": {
+        "rule": false
+      },
+      "footerRule": false,
+      "elements": [
+        {
+          "id": "handoff-art",
+          "type": "image",
+          "path": "../file-list/assets/hybrid-handoff-v2.png",
+          "sha256": "ef299b3fc136f2f72315c2fe227c42dbce8c8b48f0825d36ab71eae7a755e561",
+          "kind": "generated",
+          "box": [
+            0,
+            0,
+            1600,
+            900
+          ],
+          "fit": "contain"
+        },
+        {
+          "id": "output-0",
+          "type": "text",
+          "text": "清单",
+          "box": [
+            1240,
+            200,
+            285,
+            80
+          ],
+          "fontSize": 38,
+          "bold": true,
+          "color": "15344B",
+          "align": "center"
+        },
+        {
+          "id": "output-1",
+          "type": "text",
+          "text": "来源",
+          "box": [
+            1240,
+            365,
+            285,
+            80
+          ],
+          "fontSize": 38,
+          "bold": true,
+          "color": "15344B",
+          "align": "center"
+        },
+        {
+          "id": "output-2",
+          "type": "text",
+          "text": "待确认项",
+          "box": [
+            1240,
+            532,
+            285,
+            80
+          ],
+          "fontSize": 38,
+          "bold": true,
+          "color": "C47824",
+          "align": "center"
+        },
+        {
+          "id": "output-3",
+          "type": "text",
+          "text": "下一步",
+          "box": [
+            1240,
+            700,
+            285,
+            80
+          ],
+          "fontSize": 38,
+          "bold": true,
+          "color": "15344B",
+          "align": "center"
+        },
+        {
+          "id": "input-to-process",
+          "type": "line",
+          "from": [
+            465,
+            500
+          ],
+          "to": [
+            535,
+            500
+          ],
+          "color": "337AA6",
+          "arrow": true,
+          "width": 3,
+          "dash": false
+        },
+        {
+          "id": "process-out",
+          "type": "line",
+          "from": [
+            820,
+            500
+          ],
+          "to": [
+            875,
+            500
+          ],
+          "color": "337AA6",
+          "arrow": false,
+          "width": 3,
+          "dash": false
+        },
+        {
+          "id": "branch-vertical",
+          "type": "line",
+          "from": [
+            875,
+            247
+          ],
+          "to": [
+            875,
+            765
+          ],
+          "color": "337AA6",
+          "arrow": false,
+          "width": 3,
+          "dash": false
+        },
+        {
+          "id": "branch-0",
+          "type": "line",
+          "from": [
+            875,
+            247
+          ],
+          "to": [
+            930,
+            247
+          ],
+          "color": "337AA6",
+          "arrow": true,
+          "width": 3,
+          "dash": false
+        },
+        {
+          "id": "branch-1",
+          "type": "line",
+          "from": [
+            875,
+            413
+          ],
+          "to": [
+            930,
+            413
+          ],
+          "color": "337AA6",
+          "arrow": true,
+          "width": 3,
+          "dash": false
+        },
+        {
+          "id": "branch-2",
+          "type": "line",
+          "from": [
+            875,
+            580
+          ],
+          "to": [
+            930,
+            580
+          ],
+          "color": "C47824",
+          "arrow": true,
+          "width": 3,
+          "dash": false
+        },
+        {
+          "id": "branch-3",
+          "type": "line",
+          "from": [
+            875,
+            765
+          ],
+          "to": [
+            930,
+            765
+          ],
+          "color": "337AA6",
+          "arrow": true,
+          "width": 3,
+          "dash": false
+        }
+      ]
+    }
+  ]
+}

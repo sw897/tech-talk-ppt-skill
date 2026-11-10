@@ -1,0 +1,43 @@
+[
+  {
+    "id": "loop-labelled",
+    "file": "assets/loop-labelled.png",
+    "generator": "built-in image_gen",
+    "model": "not exposed by the tool",
+    "references": [
+      {
+        "path": "../file-list/assets/hybrid-loop-v2.png",
+        "role": "edit target; preserve composition and objects"
+      },
+      {
+        "path": "../file-list/references/palette-workflow.png",
+        "role": "palette and material only"
+      },
+      {
+        "path": "../file-list/references/mechanism-training.png",
+        "role": "technical object detail and typography only"
+      }
+    ],
+    "prompt": "Use case: text-localization\nAsset type: 16:9 technical-talk slide background for native-title and native-connector overlay.\nInput images: Image 1 is the ONLY edit target, a blank-labelled four-object Agent loop with a clarification bubble. Image 2 is palette/material reference only. Image 3 is technical-object and typography reference only. Do not copy any content, objects or words from images 2 or 3.\nPrimary request: Add precisely five dark navy, large, bold Chinese sans-serif labels to image 1. Keep its 1672x941 canvas, every object, panel, position, scale, lighting, background and blank connector channel unchanged.\nText verbatim: \"任务\", \"判断\", \"工具\", \"实际结果\", \"澄清\".\nLabel placement in image 1: \"任务\" centered inside the bottom blank portion of the leftmost panel; \"判断\" centered inside the bottom blank portion of the second panel; \"工具\" centered inside the bottom blank portion of the third panel; \"实际结果\" centered inside the bottom blank portion of the fourth panel. These four labels have equal large font size, approximately 52 pixels at the target resolution, baseline approximately y=470. \"澄清\" to the right of the existing blue speech bubble inside the small bottom orange-tinted panel, centered around x=1022,y=815, approximately 48 pixels.\nConstraints: Add only the five specified labels. No arrows, no outer title, no footer, no page number, no other letters or numerals. Preserve top y=0..155 and bottom y=900..941 blank. Do not move, replace, enlarge or recolor objects. Render labels flat and crisp, without perspective, shadows or decorative outlines. Preserve the near-white blue background and the existing blue technical objects.",
+    "in_image_text": [
+      "任务",
+      "判断",
+      "工具",
+      "实际结果",
+      "澄清"
+    ],
+    "native_text": [
+      "外层标题",
+      "实际结果回到判断",
+      "信息不足",
+      "补充输入",
+      "页脚",
+      "页码"
+    ],
+    "native_connections": true,
+    "sha256": "a4d99fa4eac98d330daec2236643931f1b02358278e2f5025fca7e5e62555a43",
+    "width": 1672,
+    "height": 941,
+    "prompt_kind": "example_prompt"
+  }
+]

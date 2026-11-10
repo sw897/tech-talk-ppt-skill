@@ -1,0 +1,12 @@
+{
+  "operations": [
+    {
+      "op": "replace_image",
+      "slide": "s02",
+      "object": "full-slide",
+      "path": "../assets/full-02-aligned.png",
+      "sha256": "9e9690ff8a43fdc5bc036ce5825ef6ab460bed8fd683e0d696992538f5b59be6",
+      "kind": "generated"
+    }
+  ]
+}

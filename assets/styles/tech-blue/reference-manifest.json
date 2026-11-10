@@ -1,0 +1,31 @@
+{
+  "profile_version": "1.3",
+  "origin": "AI-generated style references",
+  "usage": "Visual reference only; labels and technical claims are not source material.",
+  "references": [
+    {
+      "file": "palette-data-pipeline.png",
+      "sha256": "275bdfe0ed281273997ea121c856290c8d4c2d6441c2033877b6dcdff488c156",
+      "bytes": 1650979,
+      "width": 1672,
+      "height": 941,
+      "role": "配色、物件质感、流程与异常回路"
+    },
+    {
+      "file": "palette-service-layers.png",
+      "sha256": "e5ad39361527c8afce1c324c40638844a0fbe8cd295feb1427f4f069e7c2f7a6",
+      "bytes": 1653965,
+      "width": 1672,
+      "height": 941,
+      "role": "近白空间、分层架构与请求响应"
+    },
+    {
+      "file": "palette-task-collaboration.png",
+      "sha256": "21bf427acf4f0d881d9766a6c8962a31a5f5e3a0a5f8913a8d708ef372cc859a",
+      "bytes": 1745997,
+      "width": 1672,
+      "height": 941,
+      "role": "技术蓝层次、并行分工与结果返回"
+    }
+  ]
+}

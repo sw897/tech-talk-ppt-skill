@@ -1,0 +1,11 @@
+{
+  "operations": [
+    {
+      "op": "replace_text",
+      "slide": "s01",
+      "object": "title",
+      "old": "文件清单整理",
+      "new": "文件清单核对"
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+[
+  {
+    "id": "full-01",
+    "file": "assets/full-01.png",
+    "sha256": "34378d03e850deb99c1fb94605ddbd41cedaf666714c51ff3b2b60a66e0048a9",
+    "width": 1672,
+    "height": 941,
+    "generator": "built-in image_gen",
+    "model": "not exposed by the tool",
+    "reference": "references/palette-workflow.png",
+    "reference_role": "style and object finish only",
+    "prompt": "中文工程师培训的高质量技术课件，近白背景#F6F8FA、深蓝文字#15344B、浅蓝到中蓝自然层次，少量橙金#C47824强调；精细轻立体技术物件，干净的二维文字和关系线。所附图片仅约束配色、物件精细度，不复制其任何文字、参数、流程和数量。不用霓虹、背景电路、机器人、装饰齿轮。字体接近微软雅黑，重要信息在1600×900整页相当于至少28px，标题约48px。\n整页16:9幻灯片，最终成品不是拼图。左侧清晰大标题“文件清单整理”，副标题“输入、澄清与结果核对”。右侧以蓝色文件夹、三张不同设备记录纸和一张有序清单构成精细轻立体插画，不出现小字或虚构数据。标题左对齐，留白充足。只出现给定两行文字。",
+    "prompt_kind": "example_prompt"
+  },
+  {
+    "id": "full-02",
+    "file": "assets/full-02.png",
+    "sha256": "fe71f26e75a342ad3efea49e1a1f935f1fbe80812e4896ca3f017c3259e1f4d2",
+    "width": 1672,
+    "height": 941,
+    "generator": "built-in image_gen",
+    "model": "not exposed by the tool",
+    "reference": "references/palette-workflow.png",
+    "reference_role": "style and object finish only",
+    "prompt": "中文工程师培训的高质量技术课件，近白背景#F6F8FA、深蓝文字#15344B、浅蓝到中蓝自然层次，少量橙金#C47824强调；精细轻立体技术物件，干净的二维文字和关系线。所附图片仅约束配色、物件精细度，不复制其任何文字、参数、流程和数量。不用霓虹、背景电路、机器人、装饰齿轮。字体接近微软雅黑，重要信息在1600×900整页相当于至少28px，标题约48px。\n整页16:9幻灯片，最终成品不是拼图。顶部统一标题“先写清任务约定”。正文用四个从左到右、同尺度的解释区域，每区有真实含义的技术物件及两行精确中文：1“输入”“三份设备记录”；2“目标”“一张可回查清单”；3“约束”“缺项先确认”；4“验收”“逐条核对来源”。普通正文不做大块彩底，不加额外文字。",
+    "prompt_kind": "example_prompt"
+  },
+  {
+    "id": "full-03",
+    "file": "assets/full-03.png",
+    "sha256": "6d6f9d43867dc91a1d2d8dde48bfe582ef32a841fb11332070e75520b20548b8",
+    "width": 1672,
+    "height": 941,
+    "generator": "built-in image_gen",
+    "model": "not exposed by the tool",
+    "reference": "references/palette-workflow.png",
+    "reference_role": "style and object finish only",
+    "prompt": "中文工程师培训的高质量技术课件，近白背景#F6F8FA、深蓝文字#15344B、浅蓝到中蓝自然层次，少量橙金#C47824强调；精细轻立体技术物件，干净的二维文字和关系线。所附图片仅约束配色、物件精细度，不复制其任何文字、参数、流程和数量。不用霓虹、背景电路、机器人、装饰齿轮。字体接近微软雅黑，重要信息在1600×900整页相当于至少28px，标题约48px。\n整页16:9幻灯片，最终成品不是拼图。顶部标题“工具结果回到任务循环”。正文为清晰横向闭环：左侧“任务”输入“判断”；“判断”向“工具”发出执行箭头；“工具”向“实际结果”输出；“实际结果”用下方深蓝返回线回到“判断”。下方另从“判断”分出橙金线到“澄清”，这条线标“信息不足”；“澄清”再回到“判断”，标“补充输入”。所有箭头从所属框边缘连接，不穿字。不增加其他节点或文字。",
+    "prompt_kind": "example_prompt"
+  },
+  {
+    "id": "full-04",
+    "file": "assets/full-04.png",
+    "sha256": "cc435187a0740bc24932ecf1816595566918cfe8c5291736a50ec63fb7652692",
+    "width": 1672,
+    "height": 941,
+    "generator": "built-in image_gen",
+    "model": "not exposed by the tool",
+    "reference": "references/palette-workflow.png",
+    "reference_role": "style and object finish only",
+    "prompt": "中文工程师培训的高质量技术课件，近白背景#F6F8FA、深蓝文字#15344B、浅蓝到中蓝自然层次，少量橙金#C47824强调；精细轻立体技术物件，干净的二维文字和关系线。所附图片仅约束配色、物件精细度，不复制其任何文字、参数、流程和数量。不用霓虹、背景电路、机器人、装饰齿轮。字体接近微软雅黑，重要信息在1600×900整页相当于至少28px，标题约48px。\n整页16:9幻灯片，最终成品不是拼图。顶部标题“缺少单位时先确认”。左侧用大字展示一个带纸质记录的输入“阈值 80”，旁边一个橙金问号。右侧两条大字“待确认：单位与用途”“确认前不转换、不下结论”。画面下方可有一条从记录到澄清的线，不能暗示已经确认单位。不要自行添加ms、百分号、模型、测量设备或结果。",
+    "prompt_kind": "example_prompt"
+  },
+  {
+    "id": "full-05",
+    "file": "assets/full-05.png",
+    "sha256": "17d2888424fcfa2802140e8b794c666130dc8f7fa646d604b776dbefd9929e09",
+    "width": 1672,
+    "height": 941,
+    "generator": "built-in image_gen",
+    "model": "not exposed by the tool",
+    "reference": "references/palette-workflow.png",
+    "reference_role": "style and object finish only",
+    "prompt": "中文工程师培训的高质量技术课件，近白背景#F6F8FA、深蓝文字#15344B、浅蓝到中蓝自然层次，少量橙金#C47824强调；精细轻立体技术物件，干净的二维文字和关系线。所附图片仅约束配色、物件精细度，不复制其任何文字、参数、流程和数量。不用霓虹、背景电路、机器人、装饰齿轮。字体接近微软雅黑，重要信息在1600×900整页相当于至少28px，标题约48px。\n整页16:9幻灯片，最终成品不是拼图。顶部标题“把结论连回证据”。主体左侧是记录纸“记录A”，中间为“来源文件”，右侧为“原文位置”，以清楚的有方向连线连接，保持原件、引用与结论的意义。下方精确表格仅三列三行：表头“字段｜取值｜依据”；行一“设备｜A-01｜记录A”；行二“单位｜待确认｜缺少原文”。所有文字大且清晰，不添加其他数据。",
+    "prompt_kind": "example_prompt"
+  },
+  {
+    "id": "full-06",
+    "file": "assets/full-06.png",
+    "sha256": "13d97b5d0fdf125fb1cbb37cf168f7e18bfbff06b65ca78a3624a1678244a812",
+    "width": 1672,
+    "height": 941,
+    "generator": "built-in image_gen",
+    "model": "not exposed by the tool",
+    "reference": "references/palette-workflow.png",
+    "reference_role": "style and object finish only",
+    "prompt": "中文工程师培训的高质量技术课件，近白背景#F6F8FA、深蓝文字#15344B、浅蓝到中蓝自然层次，少量橙金#C47824强调；精细轻立体技术物件，干净的二维文字和关系线。所附图片仅约束配色、物件精细度，不复制其任何文字、参数、流程和数量。不用霓虹、背景电路、机器人、装饰齿轮。字体接近微软雅黑，重要信息在1600×900整页相当于至少28px，标题约48px。\n整页16:9幻灯片，最终成品不是拼图。顶部标题“交付可接续的成果”。正文以一组分层但不拥挤的蓝色文件和资料盒，表达四项必须交付的信息，并以可读大字标注“清单”“来源”“待确认项”“下一步”。右下可用克制橙金突出“待确认项”，不出现已完成任务的勾号或没有依据的成功结果。不要添加页码、日期、品牌或其他文字。",
+    "prompt_kind": "example_prompt"
+  },
+  {
+    "id": "subject-cover",
+    "file": "assets/subject-cover.png",
+    "sha256": "810d2d358d4ff13fce75b1cfafe57054aeda35074aa1b61ca4bbbc65d1a375d8",
+    "width": 1536,
+    "height": 1024,
+    "generator": "built-in image_gen",
+    "model": "not exposed by the tool",
+    "reference": "references/palette-workflow.png",
+    "reference_role": "style and object finish only",
+    "prompt": "中文工程师培训的高质量技术课件，近白背景#F6F8FA、深蓝文字#15344B、浅蓝到中蓝自然层次，少量橙金#C47824强调；精细轻立体技术物件，干净的二维文字和关系线。所附图片仅约束配色、物件精细度，不复制其任何文字、参数、流程和数量。不用霓虹、背景电路、机器人、装饰齿轮。字体接近微软雅黑，重要信息在1600×900整页相当于至少28px，标题约48px。\n为混合制作PPT生成一张不含文字的横向插画素材，画幅3:2。精细浅蓝文件夹，三张有不同简洁几何设备图形的记录纸，右侧一张规整清单，四者形态清楚。近白干净背景，主体居中并留完整安全边。无文字、无数字、无箭头、无Logo。最终将放在1600×900页面的右侧约700×470区域。",
+    "prompt_kind": "example_prompt"
+  },
+  {
+    "id": "subject-question",
+    "file": "assets/subject-question.png",
+    "sha256": "937d5f0e3b83e681d0ef93c3e79f1a2fddf22463a64d725f2c57009f4f756d92",
+    "width": 1536,
+    "height": 1024,
+    "generator": "built-in image_gen",
+    "model": "not exposed by the tool",
+    "reference": "references/palette-workflow.png",
+    "reference_role": "style and object finish only",
+    "prompt": "中文工程师培训的高质量技术课件，近白背景#F6F8FA、深蓝文字#15344B、浅蓝到中蓝自然层次，少量橙金#C47824强调；精细轻立体技术物件，干净的二维文字和关系线。所附图片仅约束配色、物件精细度，不复制其任何文字、参数、流程和数量。不用霓虹、背景电路、机器人、装饰齿轮。字体接近微软雅黑，重要信息在1600×900整页相当于至少28px，标题约48px。\n为混合制作PPT生成一张不含文字的横向插画素材，画幅3:2。两张浅蓝记录纸与一个独立、清晰、克制橙金的立体问号，表达记录缺少关键信息，需要澄清。近白背景，主体居中，边缘完整。只问号符号可以出现，严禁任何汉字、英文、数字、单位或Logo。最终约600×430像素显示。",
+    "prompt_kind": "example_prompt"
+  },
+  {
+    "id": "subject-handoff",
+    "file": "assets/subject-handoff.png",
+    "sha256": "ea7d4db99fa448404a3e6252c30ead19f82f964e30a11659973d341c56979c6e",
+    "width": 1536,
+    "height": 1024,
+    "generator": "built-in image_gen",
+    "model": "not exposed by the tool",
+    "reference": "references/palette-workflow.png",
+    "reference_role": "style and object finish only",
+    "prompt": "中文工程师培训的高质量技术课件，近白背景#F6F8FA、深蓝文字#15344B、浅蓝到中蓝自然层次，少量橙金#C47824强调；精细轻立体技术物件，干净的二维文字和关系线。所附图片仅约束配色、物件精细度，不复制其任何文字、参数、流程和数量。不用霓虹、背景电路、机器人、装饰齿轮。字体接近微软雅黑，重要信息在1600×900整页相当于至少28px，标题约48px。\n为混合制作PPT生成一张不含文字的横向插画素材，画幅3:2。一个浅蓝开放资料盒，四张分层文档，文档分别以简洁列表、链条、问号、前进符号示意清单、来源、待确认与下一步。近白背景，精细轻立体物件，不用任何文字、数字、Logo或额外装饰，物件完整，最终约650×450像素显示。",
+    "prompt_kind": "example_prompt"
+  },
+  {
+    "id": "full-02-aligned",
+    "file": "assets/full-02-aligned.png",
+    "sha256": "9e9690ff8a43fdc5bc036ce5825ef6ab460bed8fd683e0d696992538f5b59be6",
+    "width": 1672,
+    "height": 941,
+    "generator": "built-in image_gen",
+    "model": "not exposed by the tool",
+    "edit_target": "assets/full-02.png",
+    "prompt": "编辑第一张整页PPT图，仅调整顶部标题“先写清任务约定”的排版：改为左上对齐，左边距约60像素，顶部约35像素，字号约50像素，保持深蓝加粗，与技术培训正文页标题一致。正文四个分区、所有现有文字、技术物件、颜色、箭头和位置全部保持。保留整页16:9尺寸，不裁边、不新增文字或页码，不改任何事实。",
+    "prompt_kind": "example_prompt"
+  },
+  {
+    "id": "subject-cover-v02",
+    "file": "assets/subject-cover-v02.png",
+    "sha256": "1c2c3a956d2d51512e7e2d991bbbaf3d232dca52a44bbfe5dc35de351ac55160",
+    "width": 1536,
+    "height": 1024,
+    "generator": "built-in image_gen",
+    "model": "not exposed by the tool",
+    "edit_target": "assets/subject-cover.png",
+    "prompt": "编辑这张混合制作PPT用的主体插画，仅将蓝色文件夹改成浅蓝色开放资料托盘，并把三份不同设备记录摆得更整齐。保留三份记录和右侧清单的数量、概念、近白背景、技术蓝层次、精细轻立体质感，整体构图和3:2画幅保持。不添加任何文字、数字、品牌、Logo、箭头或新对象，记录纸上的设备图形保持清楚。",
+    "prompt_kind": "example_prompt"
+  },
+  {
+    "id": "hybrid-cover-v2",
+    "file": "assets/hybrid-cover-v2.png",
+    "sha256": "6b65e61c3113fa16c09b8db5e7f7a91d2018cf6782ee39667055a43f8d694455",
+    "width": 1672,
+    "height": 941,
+    "generator": "built-in image_gen",
+    "model": "not exposed by the tool",
+    "reference": [
+      "assets/full-01.png",
+      "references/palette-workflow.png"
+    ],
+    "reference_role": [
+      "edit target: composition and technical objects",
+      "palette and object finish only"
+    ],
+    "prompt": "精确编辑参考图1，制作可叠加PPT原生文字的封面背景。删除全部中文标题、副标题及左侧水平装饰线，左边约40%的原文字区保持干净近白。完整保留右侧精细浅蓝文件夹、三张设备记录和清单之间的组合关系、自然投影与细节。不要把插画缩成小贴图，不添加卡片、徽章、新物件或文字。参考图2仅约束近白与技术蓝配色和细致物件材质，不继承它的文字和内容。保持原图16:9构图、主体尺度和视觉完成度，输出一张无任何可读文字的完整背景。",
+    "prompt_kind": "example_prompt"
+  },
+  {
+    "id": "hybrid-contract-v2",
+    "file": "assets/hybrid-contract-v2.png",
+    "sha256": "bf2612058328648d814d7f541d935a0c4457e505c817b317fbc166871b4ca625",
+    "width": 1672,
+    "height": 941,
+    "generator": "built-in image_gen",
+    "model": "not exposed by the tool",
+    "reference": [
+      "assets/full-02-aligned.png",
+      "references/palette-workflow.png"
+    ],
+    "reference_role": [
+      "edit target: composition and technical objects",
+      "palette and object finish only"
+    ],
+    "prompt": "精确编辑参考图1，制作中文工程师培训PPT可叠加原生文字的无字背景。移除所有中文标题、四个分区标题及底部说明，移除三条蓝色流程箭头（四部分是任务约定的组成，不是自动执行步骤），移除四个外层大圆角边框。保留四个精细浅蓝技术物件，从左到右为三份设备记录文件夹、可回查清单与放大镜、含一项橙色缺项的检查记录、验收夹板与勾选标记。四物件同尺度水平对齐，主要占画布y=340到700，上方y=235到320和下方y=720到800留出清楚文字槽。顶部0到160及底部840到900保持近白。16:9，四个对象的中心x约210、600、1000、1390（按1600宽度的等效坐标）。保持细节和原图整体完成度，不变成扁平图标。参考图2只约束配色和材质。无字，无水印，无新数据。",
+    "prompt_kind": "example_prompt"
+  },
+  {
+    "id": "hybrid-loop-v2",
+    "file": "assets/hybrid-loop-v2.png",
+    "sha256": "6c4bd1a958b88051f92fbb7764c73611f7e17caf9e010caa3e8c7d59ceb233e2",
+    "width": 1672,
+    "height": 941,
+    "generator": "built-in image_gen",
+    "model": "not exposed by the tool",
+    "reference": [
+      "assets/full-03.png",
+      "references/palette-workflow.png"
+    ],
+    "reference_role": [
+      "edit target: composition and technical objects",
+      "palette and object finish only"
+    ],
+    "prompt": "精确编辑参考图1，把它变成PPT原生叠字、原生连线所用的完整无字背景。删除所有中文文字、页标题、所有蓝色和橙色连接线与箭头；删除顶部蓝色标题短标。保留四个主要轻立体技术物件及浅色分组承托，从左到右是任务清单、分层判断结构、工具盒、实际返回记录。按1600x900的等效坐标，四组外边界分别约x=32..348、424..748、826..1148、1224..1568，y=187..501；技术物件在各组上半部y=210..400，下方y=420..490空出原生标签槽。下方澄清区域保留浅橙色承托与蓝色对话气泡，区域约x=740..1140，y=710..845，右半留空给澄清标签。其余所有返回通道空出来，顶端0..155和底端855..900空白。16:9，近白技术蓝、克制浅阴影，细致度不降低。参考图2仅约束配色与材质。不要任何文字、参数、标志、额外节点或连接线。",
+    "prompt_kind": "example_prompt"
+  },
+  {
+    "id": "hybrid-clarify-v2",
+    "file": "assets/hybrid-clarify-v2.png",
+    "sha256": "43a605e923a5025ace86b8f88ee68fd7e165e4cb215f39945a3be95fd09e2ab6",
+    "width": 1672,
+    "height": 941,
+    "generator": "built-in image_gen",
+    "model": "not exposed by the tool",
+    "reference": [
+      "assets/full-04.png",
+      "references/palette-workflow.png"
+    ],
+    "reference_role": [
+      "edit target: composition and technical objects",
+      "palette and object finish only"
+    ],
+    "prompt": "编辑参考图1，制作16:9的PPT原生叠字背景。移除全部中文文字及数字80、顶部蓝色标题标记和标题横线。完整保留左侧文件夹与记录纸、橙金问号，右侧两块浅蓝解释区及各自的小图标，底部澄清气泡和浅橙区域。移除从文件夹到澄清区域的蓝色连接线与箭头，后续由原生连线绘制。保留原有各对象的位置、大小、细节、光影和配色，不增加新物件。左侧纸张原“阈值80”位置留出清晰无字区域，右侧两个说明槽和澄清气泡右侧均保持无字。画布顶端0到160及底部855到900留干净近白，不生成页脚。参考图2仅约束技术蓝、精细轻立体材质。无任何文字、数字、标志、水印。",
+    "prompt_kind": "example_prompt"
+  },
+  {
+    "id": "hybrid-evidence-v2",
+    "file": "assets/hybrid-evidence-v2.png",
+    "sha256": "04867044018025ad00935b3b8e2b4ec9142bef5e1949fae86f2d7d55caa950f1",
+    "width": 1672,
+    "height": 941,
+    "generator": "built-in image_gen",
+    "model": "not exposed by the tool",
+    "reference": [
+      "assets/full-05.png",
+      "references/palette-workflow.png"
+    ],
+    "reference_role": [
+      "edit target: composition and technical objects",
+      "palette and object finish only"
+    ],
+    "prompt": "编辑参考图1，为可编辑PPT生成完整无字证据回查背景。删除页标题、所有文字、所有字母数字A-01、原底部整张表格，以及全部蓝色和橙色连接线、箭头和连接线上小标签。保留三组精细技术物件：左记录纸，中间文件夹与三份原件，右侧原文局部放大框。将三组布局调整到1600x900等效坐标：外边界分别x=48..435、600..1000、1160..1555，y=175..515；组内顶部175..235留空作原生分区标题，底部475..515留空作原生说明。物件主要在y=240..460，不变成小图标。三组之间及下方y=535..625留出原生连接通道，底部y=650..820是干净近白原生表格槽。纸张和放大框可留无字的蓝灰横线、条码和橙色定位角。顶部0..140留白。只使用近白、细致技术蓝和少量橙金；参考图2仅约束配色材质。无文字无数字，无新事实，无额外装饰。",
+    "prompt_kind": "example_prompt"
+  },
+  {
+    "id": "hybrid-handoff-v2",
+    "file": "assets/hybrid-handoff-v2.png",
+    "sha256": "ef299b3fc136f2f72315c2fe227c42dbce8c8b48f0825d36ab71eae7a755e561",
+    "width": 1672,
+    "height": 941,
+    "generator": "built-in image_gen",
+    "model": "not exposed by the tool",
+    "reference": [
+      "assets/full-06.png",
+      "references/palette-workflow.png"
+    ],
+    "reference_role": [
+      "edit target: composition and technical objects",
+      "palette and object finish only"
+    ],
+    "prompt": "编辑参考图1，生成16:9中文技术课件原生叠字背景。删除全部中文标题、四个输出名称、标题蓝色短标与横线。移除文件夹到分层结构、分层结构到右侧四个输出的所有连接线和箭头，后续用PPT原生线条绘制。保留左侧资料文件夹、中央精细浅蓝分层技术结构、右侧四个输出区域及各自对应物件，第三个待确认区域保持橙金。资料中的文字和条码不必有可读内容。以1600x900等效坐标，右侧四个区域各在x=950..1550，y=170..315、335..480、500..645、665..810，右侧标签槽x=1230..1520保持干净无字，物件在x=1000..1180。左侧文件夹与中央分层主体在y=280..750，与右侧整体平衡。顶部0..145和底部840..900留白。保持原图精细度、物件尺度、光影和视觉完成度。参考图2只约束配色和材质。无文字、无水印、不添无意义装饰。",
+    "prompt_kind": "example_prompt"
+  },
+  {
+    "id": "hybrid-cover-tray-v2",
+    "file": "assets/hybrid-cover-tray-v2.png",
+    "sha256": "600e14539e95e4e0341fceadf5b18e99a4cdeeeec0a0c960c32a8110249231b3",
+    "width": 1672,
+    "height": 941,
+    "generator": "built-in image_gen",
+    "model": "not exposed by the tool",
+    "reference": [
+      "assets/hybrid-cover-v2.png",
+      "references/palette-workflow.png"
+    ],
+    "reference_role": [
+      "edit target: composition and technical objects",
+      "palette and object finish only"
+    ],
+    "prompt": "精准局部编辑参考图1：只把承托三份设备记录的蓝色文件夹换成同样蓝色、较低开口的收纳托盘。三张记录的数量、内容、位置和大小，以及右侧清单、蓝色箭头、光影、背景全部保留。左侧的原生文字预留区必须保持干净无字，不能添加标题、标记或水印。保持整张16:9构图和原始比例，托盘仍有精细浅蓝与中蓝材质，不能变成扁平图标。参考图2仅约束配色。",
+    "prompt_kind": "example_prompt"
+  },
+  {
+    "id": "hybrid-acceptance-v2",
+    "file": "assets/hybrid-acceptance-v2.png",
+    "sha256": "83998e386bdc94dddcc3da7c819d14da787c23bc01233b8695a9436ce73661c4",
+    "width": 1672,
+    "height": 941,
+    "generator": "built-in image_gen",
+    "model": "not exposed by the tool",
+    "reference": [
+      "assets/subject-handoff.png",
+      "references/palette-workflow.png"
+    ],
+    "reference_role": [
+      "edit target: composition and technical objects",
+      "palette and object finish only"
+    ],
+    "prompt": "将参考图1的精细浅蓝技术物件重新构图为16:9 PPT结束页的无字背景。不要原有四张纸的含义，改为左半画面一个精细蓝色验收夹板，夹板上有四个蓝绿勾选符号与简洁无字横线，旁边下方整齐放三份设备记录纸，三份的数目清楚。物件在1600x900等效坐标约x=80..720、y=230..750，足够大，与右侧原生文字自然共同构图。右半x=800..1540、y=170..810保持干净近白，后续放四组原生验收文字，不画卡片、标记、数字、面板或线。顶部0..150及底部840..900留白。背景连续铺满画布，不能看出一张矩形贴图的边缘。参考图2只约束近白技术蓝、自然层次、轻立体精细度和光向。无任何文字、数字、品牌或水印。",
+    "prompt_kind": "example_prompt"
+  },
+  {
+    "id": "hybrid-parameters-v3",
+    "file": "assets/hybrid-parameters-v3.png",
+    "sha256": "19f42ad84a40fc66c5bae0541fc1bf7ed9d6197a97c7dc0ad3e56a2490629360",
+    "width": 1672,
+    "height": 941,
+    "generator": "built-in image_gen",
+    "model": "not exposed by the tool",
+    "reference": [
+      "assets/hybrid-handoff-v2.png",
+      "references/palette-workflow.png",
+      "references/mechanism-training.png"
+    ],
+    "reference_role": [
+      "adjacent-page composition, light and materials",
+      "palette and object finish",
+      "technical-object detail only"
+    ],
+    "prompt": "这是同一套中文工程师培训PPT的混合制作页，精确文字和表格稍后由PPT原生对象叠加。输入图1是当前相邻页的风格与物件尺度参考，重做内容时保留其完整画布的近白至极浅蓝背景、精细浅蓝到中蓝的立体材质、柔和光向、边缘和接触阴影。输入图2仅为配色与精细度参考，输入图3仅为技术物件细节参考；不得继承参考图的任何文字、事实、参数、品牌、结构或物件数量。输出一张16:9横幅无字背景，按1600×900等效坐标安排。顶端0..145和底端850..900保持干净留白，标题、页脚均由原生层承担。物件必须解释当前内容，不能是随意装饰的小贴图。严禁文字、数字、标志、水印、霓虹、深色底、电路纹理、机器人。画面连续铺满，不能出现粘贴图片的矩形底色边界。\n本页主题是教学参数，区分匹配阈值规则、等待时限、合成资料。左侧x=80..390为三件同风格、精细的技术物件，自上而下分别为匹配靶标与校核标记、无数字的计时器、三份蓝白记录纸，三个物件中心分别约(235,385)、(235,535)、(235,685)，每个最大宽260高145。不要箭头或连线，不画具体数值。右侧x=440..1540、y=245..745是完整、干净、平整的浅蓝白表格留槽，不画任何表格线、格子、文字或标题，后续会放四行三列的原生表格。左侧物件要与右侧三条数据行在视觉上对应，表头留槽在y=245..355。正文上方145..230和下方760..835留给原生说明。保留相邻页那种精细、有解释作用的主体与浅蓝空间，原生表格区域可作为一块薄的白色资料承托面，不能使用厚重展台或玻璃发光底座。",
+    "prompt_kind": "example_prompt"
+  },
+  {
+    "id": "hybrid-records-v3",
+    "file": "assets/hybrid-records-v3.png",
+    "sha256": "d67ce48a38f70fd9e803cb95ebc82c2abd565114a198faeb5de49cf9da9416ce",
+    "width": 1672,
+    "height": 941,
+    "generator": "built-in image_gen",
+    "model": "not exposed by the tool",
+    "reference": [
+      "assets/hybrid-handoff-v2.png",
+      "references/palette-workflow.png",
+      "references/mechanism-training.png"
+    ],
+    "reference_role": [
+      "adjacent-page composition, light and materials",
+      "palette and object finish",
+      "technical-object detail only"
+    ],
+    "prompt": "这是同一套中文工程师培训PPT的混合制作页，精确文字和表格稍后由PPT原生对象叠加。输入图1是当前相邻页的风格与物件尺度参考，重做内容时保留其完整画布的近白至极浅蓝背景、精细浅蓝到中蓝的立体材质、柔和光向、边缘和接触阴影。输入图2仅为配色与精细度参考，输入图3仅为技术物件细节参考；不得继承参考图的任何文字、事实、参数、品牌、结构或物件数量。输出一张16:9横幅无字背景，按1600×900等效坐标安排。顶端0..145和底端850..900保持干净留白，标题、页脚均由原生层承担。物件必须解释当前内容，不能是随意装饰的小贴图。严禁文字、数字、标志、水印、霓虹、深色底、电路纹理、机器人。画面连续铺满，不能出现粘贴图片的矩形底色边界。\n本页主题是三份设备记录的原文回查，三份轻立体的蓝白资料页在画面上半部水平同尺度排列。三个对象的中心按1600×900等效坐标分别是(475,355)、(895,355)、(1315,355)，每个约290宽240高，底端不超过y=475。第一份纸张有一处橙金虚线空字段和问号，表示单位与用途缺失；第二份纸张结合一个小型无数字计时器，表示原文给出等待时间；第三份纸张结合一个小型蓝白电源接头，表示原文给出电源信息。纸面只允许少量无字横线和条码，不画设备型号、数值或单位。不要把三份纸放在UI卡片或大外框里，不画箭头。下半部x=70..1530、y=505..805留一整块干净平整的浅蓝白资料面，后续放四行四列原生对照表，这里不画线条、格子、标题。y=150..225为原生副题预留，底部805..845留给简短说明。所有物件自然共同构图，不把顶部三张纸缩成几个通用小图标。",
+    "prompt_kind": "example_prompt"
+  },
+  {
+    "id": "hybrid-continuation-v3",
+    "file": "assets/hybrid-continuation-v3.png",
+    "sha256": "3c9fa0cfd37b7e447c3b03c4c7bad3684c107270ea23fb2154cd8497023012ed",
+    "width": 1672,
+    "height": 941,
+    "generator": "built-in image_gen",
+    "model": "not exposed by the tool",
+    "reference": [
+      "assets/hybrid-handoff-v2.png",
+      "references/palette-workflow.png",
+      "references/mechanism-training.png"
+    ],
+    "reference_role": [
+      "adjacent-page composition, light and materials",
+      "palette and object finish",
+      "technical-object detail only"
+    ],
+    "prompt": "这是同一套中文工程师培训PPT的混合制作页，精确文字和表格稍后由PPT原生对象叠加。输入图1是当前相邻页的风格与物件尺度参考，重做内容时保留其完整画布的近白至极浅蓝背景、精细浅蓝到中蓝的立体材质、柔和光向、边缘和接触阴影。输入图2仅为配色与精细度参考，输入图3仅为技术物件细节参考；不得继承参考图的任何文字、事实、参数、品牌、结构或物件数量。输出一张16:9横幅无字背景，按1600×900等效坐标安排。顶端0..145和底端850..900保持干净留白，标题、页脚均由原生层承担。物件必须解释当前内容，不能是随意装饰的小贴图。严禁文字、数字、标志、水印、霓虹、深色底、电路纹理、机器人。画面连续铺满，不能出现粘贴图片的矩形底色边界。\n本页主题是可接续记录。左侧是一张精细浅蓝夹板承托的大型白色记录纸或资料面，外形区间x=65..1040、y=245..725。只保留轻微立体边缘、上缘金属蓝纸夹与柔和阴影；纸内x=115..995、y=300..665必须平整、干净、无字、无横线、无装饰，后续叠加可编辑JSON代码，不要画代码或伪造终端截图。右侧有三件解释物件，上下排列但不加外框：第一件为资料文件夹与小链条，第二件为橙金缺项记录纸与问号，第三件为蓝色下一步交接箭头与记录纸。它们约在x=1085..1190，中心y=315、475、635；右侧x=1220..1540相应的三行留空给原生字段名与说明。物件与纸张保留同一视角和光向。y=145..225和730..835也保持干净，留给原生副题和简短说明。不要巨型插画挤压文字槽，也不要几块平面矩形代替真实物件。",
+    "prompt_kind": "example_prompt"
+  }
+]

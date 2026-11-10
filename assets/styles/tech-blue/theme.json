@@ -1,0 +1,14 @@
+{
+  "name": "tech-blue",
+  "canvas": {"width": 1600, "height": 900},
+  "font": "微软雅黑",
+  "background": "F6F8FA",
+  "ink": "15344B",
+  "blue": "337AA6",
+  "accent": "C47824",
+  "muted": "607987",
+  "line": "CDDEE5",
+  "bodySize": 28,
+  "titleSize": 44,
+  "footerSize": 15
+}

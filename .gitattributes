@@ -1,0 +1,2 @@
+# Keep adopted source snapshots byte-stable for SHA-256 verification.
+* -text whitespace=cr-at-eol

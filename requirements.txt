@@ -1,0 +1,3 @@
+# Build, inspect, patch, export and Windows COM rendering use the Python standard library.
+# Pillow is needed only by review.py for image dimensions and contact sheets.
+Pillow>=10,<13
