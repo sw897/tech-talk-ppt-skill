@@ -17,13 +17,13 @@ An Agent Skill for AI-generated PowerPoint / PPTX technical presentations, with 
 
 ## 技术分享PPT示例
 
-[Agent任务循环](examples/agent-loop/README.md)是6页技术分享主示例，第3页结合图内生成标签与原生连接。以下为实际PPT导出：
+[Agent任务循环](examples/agent-loop/README.md)提供完整6页预览与PPTX下载，第3页结合图内生成标签与原生连接。首页仅节选第1页和第3页的实际PPT导出图：
 
 ![AI生成的技术分享PPT封面：Agent怎样完成任务](examples/agent-loop/preview-cover.png)
 
 ![PPT混合制作示例：图内生成标签配合原生反馈连线](examples/agent-loop/preview-loop.png)
 
-[文件清单示例](examples/file-list/README.md)包含6页整页生图和10页混合制作，以及参数表、代码、改标题、改参数与备注、换图的示例。
+[文件清单示例](examples/file-list/README.md)提供6页整页生图和10页混合制作的源稿、素材与构建命令，包含参数表、代码及局部修改示例。
 
 生图样式见[近白技术蓝](assets/styles/tech-blue/style.md)，包含数据处理、服务架构和任务协作样图。
 

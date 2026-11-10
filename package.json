@@ -1,6 +1,6 @@
 {
   "name": "tech-talk-ppt-skill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "type": "module",
   "description": "Agent skill for AI PowerPoint/PPTX technical presentations with full-slide images and editable native elements in hybrid layouts",

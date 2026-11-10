@@ -1,9 +1,36 @@
 # Agent任务循环
 
-6页技术分享示例：任务约定、工具与结果反馈、澄清、证据核对和成果接续。所有页都有生成视觉；P3的“任务、判断、工具、实际结果、澄清”随图生成，标题、箭头与分支说明为原生对象，P5表格也可直接编辑。
+完整6页技术分享示例，下面逐页展示实际PPT导出图。
 
-![封面](preview-cover.png)
-![图内标注与原生连接](preview-loop.png)
+[下载6页PPTX（含讲稿）](https://github.com/sw897/tech-talk-ppt-skill/releases/download/v1.0.1/agent-loop-example_V1.0.1.pptx)
+
+所有页都有生成视觉；第3页的“任务、判断、工具、实际结果、澄清”随图生成，标题、箭头与分支说明为原生对象，第5页表格也可直接编辑。
+
+## 第1页：Agent怎样完成任务
+
+![第1页：Agent怎样完成任务](preview-cover.png)
+
+## 第2页：一次任务的约定
+
+![第2页：一次任务的约定](preview-contract.png)
+
+## 第3页：Agent的任务循环
+
+![第3页：Agent的任务循环](preview-loop.png)
+
+## 第4页：信息不足时怎样继续
+
+![第4页：信息不足时怎样继续](preview-clarification.png)
+
+## 第5页：工具返回与结果核对
+
+![第5页：工具返回与结果核对](preview-evidence.png)
+
+## 第6页：任务怎样接续
+
+![第6页：任务怎样接续](preview-handoff.png)
+
+## 复现示例
 
 在Skill目录安装依赖后运行：
 
